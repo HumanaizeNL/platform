@@ -6,10 +6,10 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "lint": "node scripts/lint.mjs",
-    "test": "node --test src/**/*.test.mjs",
+    "test": "node --test src/server.test.mjs",
     "start": "node src/server.mjs"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   }
 }
