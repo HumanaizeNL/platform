@@ -1,0 +1,15 @@
+{
+  "name": "@humanaize/platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HumanaIze engineering platform — internal services and tooling",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test src/**/*.test.mjs",
+    "start": "node src/server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
